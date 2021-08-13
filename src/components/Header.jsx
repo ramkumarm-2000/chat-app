@@ -34,6 +34,14 @@ export default function ButtonAppBar() {
               localStorage.removeItem('password');
               window.location.reload();
             }}
+          >Video Call</Button>
+          <Button
+            color="inherit"
+            onClick={() => {
+              localStorage.removeItem('username');
+              localStorage.removeItem('password');
+              window.location.reload();
+            }}
           >
             Logout
           </Button>
