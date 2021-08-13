@@ -25,7 +25,7 @@ export default function ButtonAppBar() {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" className={classes.title}>
-            {localStorage.getItem('username')}
+            Hi! {localStorage.getItem('username')}
           </Typography>
           <Button
             color="inherit"

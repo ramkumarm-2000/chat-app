@@ -1,7 +1,7 @@
 import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 import MessageForm from './MessageForm';
-import Header from './Header';
+// import Header from './Header';
 
 const ChatFeed = (props) => {
   const { chats, activeChat, userName, messages } = props;
@@ -46,7 +46,7 @@ const ChatFeed = (props) => {
 
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <div className="chat-feed">
         <div className="chat-title-container">
           <div className="chat-title">{chat?.title}</div>
