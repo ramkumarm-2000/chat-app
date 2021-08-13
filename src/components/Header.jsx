@@ -30,11 +30,12 @@ export default function ButtonAppBar() {
           <Button
             color="inherit"
             onClick={() => {
-              localStorage.removeItem('username');
-              localStorage.removeItem('password');
-              window.location.reload();
+              const url = 'https://agitated-jackson-ad9bdc.netlify.app/';
+              window.open(url, '_blank');
             }}
-          >Video Call</Button>
+          >
+            Video Call
+          </Button>
           <Button
             color="inherit"
             onClick={() => {
